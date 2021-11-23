@@ -17,14 +17,6 @@ public class Coordinate implements Comparable<Coordinate> {
         return row;
     }
 
-    public void setCol(int col) {
-        this.col = col;
-    }
-
-    public void setRow(int row) {
-        this.row = row;
-    }
-
     @Override
     public String toString() {
         return "(" + row + ", " + col + ")";
